@@ -63,7 +63,7 @@ header{
 }
 .header__phone,
 .header__email{
-  color: #cbcacb;
+  color: #fff;
   letter-spacing: 0.25px;
   line-height: 45px;
   position: relative;
@@ -77,7 +77,7 @@ header{
   font-family: 'icomoon';
   position: absolute;
   left: 0;
-  color: #9a51ddb7;
+  color: #fff;
 }
 .header__email{
   padding-left: 24px;
@@ -87,7 +87,7 @@ header{
   font-family: 'icomoon';
   position: absolute;
   left: 0;
-  color: #9a51ddb7;
+  color: #fff;
 }
 .header__content{
   padding: 34px 0px 23px;
@@ -245,10 +245,11 @@ header{
 }
 .services__text{
   
-  color: rgba(91, 89, 89, 0.14);
+  color: grey;
 }
 .form__text,
 .news__text{
+  color: grey;
   letter-spacing: 0.1px;
 
 }
@@ -282,6 +283,7 @@ header{
   padding: 24px 0;
 }
 .services__item-text{
+  color: grey;
   letter-spacing: 0.1px;
   padding: 0px 30px 30px;
 
@@ -558,7 +560,7 @@ header{
 }
 .news__blog-text{
   letter-spacing: 0.1px;
-  color: rgba(91, 89, 89, 0.14);
+  color: grey;
 }
 .news__slider-title{
   font-size: 18px;
@@ -570,6 +572,7 @@ header{
   margin-bottom: 15px;
 }
 .news__slider-text{
+  color: grey;
   margin-bottom: 30px;
 }
 .news__slider-author{
