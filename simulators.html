@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&amp;subset=cyrillic"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <style>
+		button {
+			background-color: #FF9800;
+	  	border: none;
+	  	padding: 5px 10px;
+	  	color: #fff;
+		}
+		.item {
+			display: inline-block;
+			margin: 10px 0;
+		}
+		.answer {
+			display: inline-block;
+			margin-left: 10px;
+		}
+		.answer-true {
+			background-color: #4CAF50;
+		}
+		.answer-false {
+			background-color: red;
+		}
+	</style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__contacts">
+          <a class="header__phone" href="tel:74955493033">+7 495 549 30 33</a>
+          <a class="header__email" href="#">academydesign@gmail.com</a>
+          <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Позвонить нам</a>
+        </div>
+      </div>
+    </div>
+    <div class="header__content">
+      <div class="container">
+        <div class="header__content-inner">
+          <div class="header__logo">
+            <a href="#" class="logo__text">
+              <img src="img/logotip.png"  height="75"  alt="">              
+            </a>
+          </div>
+          <nav class="menu">
+            <div class="header__btn-menu">
+              <span class="icon-bars"></span>
+            </div>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="lectures.html">Лекции</a></li>
+              <li><a href="simulators.html">Тренажеры</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <div class="storage">
+    <div class="quiz-box">
+        <div id="quiz">
+            <h1>Викторина по HTML</h1>
+            <div class="quiz-header">
+                <p id="progress">Question x of y</p>
+                <p id="count-down"></p>
+            </div>
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button class="btn" id="btn0">A. <span id="choice0"></span></button>
+                <button class="btn" id="btn1">B. <span id="choice1"></span></button>
+                <button class="btn" id="btn2">C. <span id="choice2"></span></button>
+                <button class="btn" id="btn3">D. <span id="choice3"></span></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <div class="footer__title">
+              Комплексное предоставления обучения
+            </div>
+            <div class="footer__text">
+              Полное предоставления обучения с выдачей диплома и сертификатов.
+            </div>
+            <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">
+              Бесплатная консультация
+            </a>
+            <ul class="footer__list">
+              <li><a class="footer__phone" href="tel:380963092145">+7 495 549 30 33</a></li>
+              <li><a href="#">academydesign@gmail.com</a></li>
+              <li><a class="footer__adress" href="#">Москва, ул. Б. Полянка, д. 42, 13</a></li>
+            </ul>
+          </div>
+          <div class="footer__map">
+            <iframe height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2246.4382576283447!2d37.6179227!3d55.7335139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b045cc932b3%3A0xf1ea16383568681d!2z0YPQuy4g0JHQvtC70YzRiNCw0Y8g0J_QvtC70Y_QvdC60LAsIDQyLCDQnNC-0YHQutCy0LAsIDExOTA0OQ!5e0!3m2!1sru!2sru!4v1664726685695!5m2!1sru!2sru"  frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copy">
+      <div class="container">
+        <div class="copy__text">
+          © 2022 Все права защищены
+          «Academy Design».
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+  <div id="modal">
+    <form>
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Ваш телефон">
+      <input type="submit" value="Отправить">
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.formstyler.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/questions.js"></script>
+</body>
+
+</html>
