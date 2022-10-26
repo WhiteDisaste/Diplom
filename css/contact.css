@@ -1,0 +1,81 @@
+
+.block {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.block-right {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax
+    (200px,auto));
+    padding: 150px 60px;
+    grid-gap: 100px 60px;
+    align-content: start;
+}
+
+.block-left {
+    background-color: #9a51ddb7;
+    color: white;
+    padding: 100px 40px;
+    display: grid;
+    margin: 0px 0px;
+    grid-template-rows: auto 1fr;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+.content {
+    display: grid;
+    align-content: end;
+    border-left: 2px solid #fff;
+    padding-left: 30px;
+    margin-top: 60px;
+}
+
+.label {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.desc {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1em;
+    opacity: 0.8;
+}
+
+.card{
+display: grid;
+justify-items: center;
+text-align: center;
+}
+
+.card_img svg{
+    width: 50%;
+    height: 50%;
+    transform: rotate(calc(var(--deg)*-1));
+}
+.card_img path{
+    fill: black;
+    width: 150px;
+    height: 150px;
+}
+.card_title{
+margin: 16px 0;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 3px;
+color: #777;
+}
+
+.card_desc{
+font-size: 12px;
+line-height: 1em;
+letter-spacing: 2px;
+}
