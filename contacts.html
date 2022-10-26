@@ -6,52 +6,94 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/fonts.css">
+  
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
 
-</head>
+    
+    <section class = "contact-section">
+      <div class = "contact-bg">
+        <h3>Свяжитесь с нами</h3>
+        <h2>наши контакты</h2>
+        <div class = "line">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <p class = "text">Academy Design лучшее образовательное учреждение: мы имеем отличных предоставателей, понятные лекции и проверочные, а так же замечательную репутацию.</p>
+      </div>
 
-<body>
 
-  <div class="block">
-    <div class="block-left">
-      <h1 class="title">
-        Academy<br>Design
-      </h1>
-      <div class="content">
-        <div class="label">Дорогой, пользователь</div>
-        <div class="desc">Пользователь, на этой странице
-          вы можете прочитать мнения преподавателей, чтобы
-          лучше узнать о нашем учреждении.
+      <div class = "contact-body">
+        <div class = "contact-info">
+          <div>
+            <span><i class = "fas fa-mobile-alt"></i></span>
+            <span>телефон</span>
+            <span class = "text">+7 495 549 30 33</span>
+          </div>
+          <div>
+            <span><i class = "fas fa-envelope-open"></i></span>
+            <span>E-mail</span>
+            <span class = "text">academydesign@gmail.com</span>
+          </div>
+          <div>
+            <span><i class = "fas fa-map-marker-alt"></i></span>
+            <span>Адрес</span>
+            <span class = "text">Москва, ул. Б. Полянка, д. 42, 13</span>
+          </div>
+          <div>
+            <span><i class = "fas fa-clock"></i></span>
+            <span>Часы работы</span>
+            <span class = "text">Понедельник - Пятница (9:00 AM to 5:00 PM)</span>
+          </div>
+        </div>
+
+        <div class = "contact-form">
+          <form>
+            <div>
+              <input type = "text" class = "form-control" placeholder="Фамилия">
+              <input type = "text" class = "form-control" placeholder="Имя">
+            </div>
+            <div>
+              <input type = "email" class = "form-control" placeholder="E-mail">
+              <input type = "text" class = "form-control" placeholder="Телефон">
+            </div>
+            <textarea rows = "5" placeholder="Сообщение" class = "form-control"></textarea>
+            <input type = "submit" class = "send-btn" value = "Отправить">
+          </form>
+
+          <div>
+            <img src = "img/girl.webp" alt = "">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="block-right">
-  <div class="card">
-    <div class="card_img">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-        <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0S96
-         57.3 96 128s57.3 128 128 128zm-45.7 48C79.8 304 0 383.8 0 
-         482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 
-         29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
-    </div>
-    <div class="card_title">Преподаватель</div>
-    <div class="card_desc">С помощью наших курсов, вы поймете все тонкости программирования.</div>
-  </div>
-  <div class="card">
-    <div class="card_img">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-        <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0S96
-         57.3 96 128s57.3 128 128 128zm-45.7 48C79.8 304 0 383.8 0 
-         482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 
-         29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
-    </div>
-    <div class="card_title">Преподаватель</div>
-    <div class="card_desc">С помощью наших курсов, вы поймете все тонкости программирования.</div>
-  </div>
-    </div>
-  </div>
-</body>
 
-</html>
+      <div class = "map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2246.4382576283447!2d37.6179227!3d55.7335139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b045cc932b3%3A0xf1ea16383568681d!2z0YPQuy4g0JHQvtC70YzRiNCw0Y8g0J_QvtC70Y_QvdC60LAsIDQyLCDQnNC-0YHQutCy0LAsIDExOTA0OQ!5e0!3m2!1sru!2sru!4v1664726685695!5m2!1sru!2sru"
+          ></iframe>
+      </div>
+
+      <div class = "contact-footer">
+        <h3>Наши социальные сети</h3>
+        <div class = "social-links">
+          <a href = "#" class = "fab fa-facebook-f"></a>
+          <a href = "#" class = "fab fa-twitter"></a>
+          <a href = "#" class = "fab fa-instagram"></a>
+          <a href = "#" class = "fab fa-linkedin"></a>
+          <a href = "#" class = "fab fa-youtube"></a>
+        </div>
+      </div>
+    </section>
+
+    
+
+  </body>
+  </html>
