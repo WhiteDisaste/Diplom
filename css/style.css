@@ -1,12 +1,13 @@
 *{
   box-sizing: border-box;
 }
+
 a{
   text-decoration: none;
   display: inline-block;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 :root {
     --white: #fff;
@@ -19,16 +20,15 @@ a{
     --color-dark-grey: #222831;
 }
 
-
 html {
     font-size: 10px;
 }
-
 
 p {
     font-size: 1.6rem;
     line-height: 1.5;
 }
+
 
 .storage {
     max-width: 900px;
@@ -234,58 +234,6 @@ input {
   display: none;
 }
 
-/*
-  -- Light Mode --
-*/
-
-.light {
-  background: #fafafa;
-}
-
-.light .toggle {
-  background: linear-gradient(145deg, #e1e1e1, #fff);
-  box-shadow: 3px 3px 4px #e6e6e6,
-              -3px -3px 4px #ffffff;
-}
-
-.light .toggle .bxs-sun {
-  color: #fafafa;
-}
-
-.light .toggle .bx-moon {
-  color: #151d2a;
-}
-
-.light .toggle .ball {
-  background: #151d2a;
-}
-
-/*
-  -- Dark Mode --
-*/
-
-.dark {
-  background: #151d2a;
-}
-
-.dark .toggle {
-  background: #151d2a;
-  box-shadow: 3px 3px 3px #0e131b,
-              -3px -3px 3px #1c2739;
-}
-
-.dark .toggle .bx-sun {
-  color: #fafafa;
-}
-
-.dark .toggle .bxs-moon {
-  color: #151d2a;
-}
-
-.dark .toggle .ball {
-  background: #fafafa;
-  transform: translateX(60px);
-}
 .header__phone,
 .header__email{
   color: #fff;
